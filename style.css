@@ -150,6 +150,22 @@ section h2 {
 .principles { border-top: 1px solid var(--border); }
 .projects { border-top: 1px solid var(--border); }
 .links { border-top: 1px solid var(--border); }
+.install { border-top: 1px solid var(--border); }
+
+.zapstore-badge {
+  display: inline-block;
+  line-height: 0;
+  border-radius: 12px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.zapstore-badge img { display: block; height: 57px; width: auto; }
+
+.zapstore-badge:hover,
+.zapstore-badge:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 0 0 2px var(--accent);
+}
 
 /* Principle cards */
 
